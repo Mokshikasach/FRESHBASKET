@@ -6,6 +6,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Times, serif;
   border-radius: 0px 30px 30px 0px;
   width: 250px;
+  height: 100vh;
 }
 
 .sidebarlist {

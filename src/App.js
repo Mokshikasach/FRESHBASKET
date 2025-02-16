@@ -34,6 +34,7 @@ import Razorpay from "./Components/Razorpay";
 import OrderList from "./Components/seller/OrderList";
 import ProfileEdit from "./Components/ProfileEdit";
 import About from "./Components/About";
+import UpdateProduct from "./Components/seller/UpdateProduct";
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
           <Route path="/sellers/" element={<SellerList />} />
           <Route path="/sellers/add" element={<AddSeller />} />
           <Route path="/sellers/edit/:id" element={<AddSeller />} />
+          <Route path="/products/edit/:id" element={<UpdateProduct />} />
           <Route path="*" element={<NotFound />} />
 
           {/* admin */}
